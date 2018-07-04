@@ -1,0 +1,27 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+img {
+  width: 43px;
+  height: 43px;
+}
+
+
+
+.pokeIndexItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pokeindex {
+  list-style: none;
+  padding: 0;
+}
+
+#root {
+  width: 400px;
+  margin: 0 auto;
+  background-image: url("https://media.giphy.com/media/vsyKKf1t22nmw/giphy.gif");
+  background-size: auto;
+}
