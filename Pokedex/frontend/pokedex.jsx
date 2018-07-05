@@ -4,6 +4,7 @@ import configureStore from './store/store';
 import * as actions from './actions/pokemon_actions';
 import * as APIUtil from './util/api_util';
 import Root from './components/root';
+// import { HashRouter, Route } from 'react-router-dom';
 
 
 document.addEventListener("DOMContentLoaded", () => {

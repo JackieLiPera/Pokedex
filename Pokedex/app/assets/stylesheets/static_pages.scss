@@ -1,12 +1,10 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-img {
+.small-image {
   width: 43px;
   height: 43px;
 }
-
-
 
 .pokeIndexItem {
   display: flex;
@@ -20,8 +18,82 @@ img {
 }
 
 #root {
-  width: 400px;
   margin: 0 auto;
   background-image: url("https://media.giphy.com/media/vsyKKf1t22nmw/giphy.gif");
   background-size: auto;
+}
+
+.everythingContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.pokemonDetail {
+  border: 2px solid black;
+  height: 700px;
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pokemonDetail ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.pokemonDetail li {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.pokemonDetail img {
+  width: 200px;
+  height: 200px;
+}
+
+.image-container {
+  height: 400px;
+  width: 250px;
+  padding: 3px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-self: center;
+}
+
+
+.fire {
+  background-image: url("https://media.giphy.com/media/xXvIkTu08XQLC/giphy.gif");
+  background-size: cover;
+}
+
+.electric {
+  background-image: url("https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/lightning-network-760x400.jpg");
+  background-size: cover;
+}
+
+.ghost {
+  background-image: url("http://kb4images.com/images/ghost-image/38065489-ghost-image.jpg");
+  background-size: cover;
+}
+.grass {
+  background-image: url("https://media.giphy.com/media/ppD0Rpzop829W/giphy.gif");
+  background-size: cover;
+}
+.water {
+  background-image: url("https://media.giphy.com/media/JXHhI4o9NCf8k/giphy.gif");
+  background-size: cover;
+}
+.bug {
+  background-image: url("https://media.giphy.com/media/X33qhlGfa7gtO/giphy.gif");
+  background-size: contain;
 }
